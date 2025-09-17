@@ -1,0 +1,251 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.site-header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 25px 50px;
+}
+
+.star{
+  
+}
+
+.logo img {
+width: 50px;
+color: white;
+}
+.logo{
+  color: white;
+  justify-content: space-between;
+}
+
+
+
+.nav-center{
+
+  flex: 1;
+  text-align: center;
+  
+}
+.nav-center a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: white;
+          font-family: Abcgintodiscord, sans-serif;
+
+}
+.nav-right{
+  text-align: right;
+}
+.btn-login{
+  background: white;
+  color: black;
+  padding: 8px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 150px;
+  gap: 40px;
+}
+.hero-text {
+  padding-bottom: 250px;
+color:white;
+  max-width: 500px;
+}
+.hero-text h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family:Arial,sans-serif;
+}
+.hero-text p{
+ margin-bottom: 30px;
+         font-size: 20px;
+        line-height: 1.5;
+        padding-right: 0;
+        font-family: Arial, sans-serif;
+      }
+      .hero-buttons{
+        display: flex;
+        gap: 20px;
+      }
+      .btn-download1{
+        background-color: white;
+        color: black;
+        border-radius: 30px;
+         padding: 12px 20px;
+         font-weight: bold;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+      }
+      .btn-download{
+        background-color: rgb(0, 128, 255);
+        color: white;
+         border-radius: 30px;
+         padding: 12px 20px;
+                  font-weight: bold;
+        text-decoration: none;
+
+      }
+
+.hero-images img {
+max-width: 600px;  
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-right: 20px;
+  padding: 0 0 150px 0;
+}
+.glass-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 88px;
+}
+
+.glass-text h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.glass-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.glass-video video {
+  max-width: 500px;
+  border-radius: 15px;
+}
+.glass-boxreverse {
+  flex-direction: row-reverse;
+}
+.Logo_fgl{
+  position: absolute;
+  bottom: -600px;   
+  left: 180px;     
+  width: 160px;
+  height: auto;
+}
+
+.footer {
+background: linear-gradient(180deg, #4a5fff, #232ba0);
+padding: 60px 80px;
+color: white;
+font-family: Arial, sans-serif;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-left{
+flex: 1;
+min-width: 200px;
+margin-bottom: 30px;
+}
+.footer-logo img{
+  width: 60px;
+  margin-bottom: 20px;
+}
+.language{
+  margin-bottom: 20px;
+}
+.language label{
+  display: block;
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: #ccc;
+}
+.language select{
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background:#2C2F33;
+  color: #ccc;
+}
+.social label{
+  display: block;
+  margin-bottom: 15px;
+font-size: 15px;
+  color: #ccc;
+}
+.social-icons img{
+width: 24px;
+ filter: brightness(0) invert(1);
+ margin-right: 12px;
+}
+.footer-columns {
+  display: flex;
+  flex: 3;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-columns .col {
+  min-width: 150px;
+  margin-bottom: 20px;
+}
+.footer-columns h4 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #bbb;
+}
+
+.footer-columns a {
+  display: block;
+  margin-bottom: 8px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.logo22{
+  width: 1400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
