@@ -15,10 +15,233 @@ body{
   text-align: center;
   padding: 25px 50px;
 }
+.star {
+  position: relative; 
+   width: 12px; left: 800px;
+ animation: twinkle 3s infinite ease-in-out;
+  animation-delay: 1s;
+  bottom: -20px;
 
-.star{
-  
 }
+
+.star1{
+
+position: relative; 
+   width: 15px; left: 1000px;
+ animation: twinkle 3s infinite ease-in-out;
+  animation-delay: 1s;
+  bottom: -20px;
+}
+
+
+
+.star2{
+position: relative;
+  width: 10px;
+  left: 1300px;
+  animation: twinkle 3s infinite ease-in-out;
+  bottom: -50px;
+}
+
+
+
+
+
+
+
+
+
+@keyframes twinkle {
+  from { opacity: 0.2;  }
+  to      { opacity: 1; }
+}
+
+.point{
+   position: relative; 
+   width: 5px; left: 900px;
+ animation: twinkle 2s infinite ease-in-out;
+}
+
+
+.point1{
+   position: relative; 
+   width: 5px; left: 1000px;
+ animation: twinkle 3s infinite ease-in-out;
+}
+
+.point2{
+  position: relative; 
+   width: 5px; left: 700px;
+ animation: twinkle 4s infinite ease-in-out;
+  animation-delay: 1s;
+
+}
+
+.point3{
+position: relative; 
+   width: 5px; left: 600px;
+ animation: twinkle 5s infinite ease-in-out;
+ animation-delay: 1s;
+}
+
+.point4{
+position: relative; 
+   width: 5px;
+   left: 700px;
+ animation: twinkle 2s infinite ease-in-out;
+ bottom: -20px;
+}
+
+
+.point5{
+  position: relative; 
+   width: 5px;
+   left: 600px;
+ animation: twinkle 2s infinite ease-in-out;
+ bottom: -30px;
+}
+
+.point6{
+  position: relative; 
+   width: 5px;
+   left: 500px;
+ animation: twinkle 2s infinite ease-in-out;
+ bottom: -40px;
+}
+
+
+
+.point7{
+  position: relative; 
+   width: 5px;
+   left: 1000px;
+ animation: twinkle 2s infinite ease-in-out;
+ bottom: -50px;
+}
+
+
+
+
+
+
+
+.point8{
+  position: relative; 
+   width: 5px;
+   left: 1100px;
+ bottom: -55px;
+}
+
+
+
+
+
+
+
+.point9{
+  position: relative; 
+   width: 5px;
+   left: 400px;
+ bottom: -25px;
+}
+
+
+
+
+.point10{
+  position: relative; 
+   width: 8px;
+   left: 300px;
+ bottom: -35px;
+}
+
+
+
+.point11{
+  position: relative; 
+   width: 5px;
+   left: 200px;
+ bottom: -45px;
+ animation-delay: 2s;
+}
+
+
+
+
+.point12{
+  position: relative; 
+   width: 8px;
+   left: 100px;
+ animation: twinkle 3s infinite ease-in-out;
+ bottom: -65px;
+}
+
+
+
+
+.point13{
+  position: relative; 
+   width: 14px;
+   left: 50px;
+ animation: twinkle 2s infinite ease-in-out;
+ bottom: -70px;
+}
+
+
+
+
+
+
+
+.point14{
+  position: relative; 
+   width: 12px;
+   left: 850px;
+ animation: twinkle 1s infinite ease-in-out;
+ bottom: -30px;
+}
+
+
+
+
+
+
+
+.point15{
+  position: relative; 
+   width: 10px;
+   left: 950px;
+ animation: twinkle 2s infinite ease-in-out;
+ bottom: -30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .logo img {
 width: 50px;
