@@ -541,10 +541,9 @@ width: 24px;
     width: 70%;
   }
 
-  .img-crown,
-  .mg-crown,
+  
   .bow {
-    display: none; /* نخفي الزخارف الزايدة عشان الجوال */
+    display: none; 
   }
 }
 
