@@ -342,6 +342,95 @@ width: 24px;
 
 
 
+@media (max-width: 1280px) {
+
+  .site-header {
+    padding: 20px 40px;
+    gap: 20px;
+  }
+
+  .nav-center a {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+
+  .btn-login {
+    padding: 7px 14px;
+    font-size: 15px;
+  }
+
+  .hero {
+    padding: 60px 100px;
+    gap: 30px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+  }
+
+  .hero-images img {
+    max-width: 500px;
+  }
+
+  .glass-box {
+    max-width: 900px;
+    padding: 30px;
+    border-radius: 70px;
+  }
+
+  .glass-text h2 {
+    font-size: 26px;
+  }
+
+  .glass-text p {
+    font-size: 15px;
+  }
+
+  .glass-video video {
+    max-width: 450px;
+  }
+
+  /* الفوتر */
+  .footer {
+    padding: 50px 60px;
+  }
+
+  .footer-columns h4 {
+    font-size: 15px;
+  }
+
+  .footer-columns a {
+    font-size: 13px;
+  }
+
+  .logo22 {
+    width: 1200px;
+  }
+
+  .img-crown {
+    right: 4%;
+    bottom: 35%;
+  }
+
+  .mg-crown {
+    right: 40%;
+  }
+
+  .bow {
+    right: 40px;
+    bottom: -180px;
+  }
+
+  .Logo_fgl {
+    left: 120px;
+    bottom: -500px;
+    width: 130px;
+  }
+}
 
 
 
@@ -545,6 +634,59 @@ width: 24px;
   .bow {
     display: none; 
   }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+
+
+.site-header{
+display: flex;
+
+}
+
+
+
+.d2{
+  bottom: 20px;
+  position: absolute;
+ }
+
+
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  .btn-download1,
+  .btn-download {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .footer {
+    padding: 30px 15px;
+  }
+
+
+.Logo_fgl{
+position: absolute;
+  left: 10px;
+  bottom: -950px;
+}
+
 }
 
 
